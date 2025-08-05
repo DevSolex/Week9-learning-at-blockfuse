@@ -5,7 +5,7 @@ count = 0
 
 while count < 1000:
     students_id = count + 1
-    students_name = random.choice(['student1', 'student1000']) 
+    students_name = (f'student{count}')
     students_score = random.randint(0, 100)
 
     student = {

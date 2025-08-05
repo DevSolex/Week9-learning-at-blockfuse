@@ -33,3 +33,9 @@ Write a nested if-else block that:
 2. Stores the result in a dictionary called order_summary.
 3. Prints out a summary for the cashier.
 """
+
+
+# Assignment
+
+I wrote a logic that will generate 1000 students records
+Using while loop
