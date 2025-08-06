@@ -1,4 +1,22 @@
 '''
+  2 MOVIE TICKET DISCOUNT:
+  3 
+  4 you are building a movie ticketing system.
+  5 
+  6 Instruction: ask user for their age:
+  7 1. person 18 or older can buy a ticket.
+  8 output 'can buy a ticket'
+  9 
+ 10 2. if the are 60 or older, they get 'senior discount':
+ 11 output: 'senior discount'
+ 12 
+ 13 3. if the are lessthan 18 and 12 or older, the can buy teen ticket.
+ 14 output: 'teen ticket' 
+ 15 
+ 16 Otherwise, the can buy 'kids ticket'
+ 17 
+ 18 '''
+'''
 MOVIE TICKET DISCOUNT:
 
 you are building a movie ticketing system.
@@ -23,14 +41,14 @@ Otherwise, the can buy 'kids ticket'
 Input = int(input('enter your age: '))
 
 if Input >= 18:
-    print('Can buy a ticket')
+    print('CAN BUY TICKET')
     if Input >= 60:
-        print('Senior discount')
+        print('SENIOR DISCOUNT')
 else:
     if Input < 18 and Input >= 12:
-        print('Teen ticket')
+        print('TEEN TICKET')
     else:
-        print('Kid ticket')
+        print('KID TICKET')
 
 
 
