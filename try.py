@@ -11,3 +11,12 @@ List.append(names_of_jos_boys.keys())
 print(type(List))
 print(list(names_of_jos_boys.keys()))
 print(type([names_of_jos_boys.keys()]))
+
+a = {'name': "solex"}
+b = {'nam': 'solex', 'and': 'solo'}
+a.update(b)
+print(a)
+c = {**a, **b}
+print(c)
+
+
